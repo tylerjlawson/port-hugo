@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html><head>
+	<meta name="generator" content="Hugo 0.80.0" />
   <meta charset="utf-8" />
   <title>Port Hugo</title>
 
@@ -13,9 +14,8 @@
     content="Personal Portfolio"
   />
   
-    <meta name="author" content="Burton Guster"
-  />
-  <meta name="generator" content="Hugo 0.80.0" />
+    <meta name="author" content="Burton Guster" />
+  
 
   <!-- plugins -->
   
@@ -27,42 +27,27 @@
   
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900&amp;display=swap" />
   
-    <link rel="stylesheet" href="https://example.com/plugins/text-animation/text-animation.css" />
+    <link rel="stylesheet" href="plugins/text-animation/text-animation.css" />
   
-    <link rel="stylesheet" href="https://example.com/plugins/hugrid/hugrid.css" />
+    <link rel="stylesheet" href="plugins/hugrid/hugrid.css" />
   
 
   <!-- Main Stylesheet -->
+
   
-  <link rel="stylesheet" href="https://example.com/css/style.min.css" media="screen" />
+  <link rel="stylesheet" href="/css/style.min.css" media="screen" />
 
   <!--Favicon-->
-  <link
-    rel="apple-touch-icon"
-    sizes="180x180"
-    href="/favicon/apple-touch-icon.png"
-  />
-  <link
-    rel="icon"
-    type="image/png"
-    sizes="32x32"
-    href="/favicon/favicon-32x32.png"
-  />
-  <link
-    rel="icon"
-    type="image/png"
-    sizes="16x16"
-    href="/favicon/favicon-16x16.png"
-  />
-  <link rel="manifest" href="/favicon/manifest.json" />
-  <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#374a67" />
-  <meta name="theme-color" content="#ffffff" />
+
+  
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+  
 </head>
 <body>
   <!-- preloader start -->
   <div class="preloader">
     
-      <img src="https://example.com/images/preloader.gif" alt="preloader" />
+      <img src="images/preloader.gif" alt="preloader" />
     
   </div>
   <!-- preloader end -->
@@ -77,7 +62,7 @@
           <a href="/"
             ><img
               class="img-fluid"
-              src="https://example.com/images/logo.svg"
+              src="images/logo.svg"
               alt="Port Hugo"
               id="desktop-logo"
           /></a>
@@ -110,7 +95,7 @@
             <a href="/"
               ><img
                 class="img-fluid"
-                src="https://example.com/images/logo-dark.svg"
+                src="images/logo-dark.svg"
                 alt="Port Hugo"
             /></a>
           </div>
@@ -170,6 +155,47 @@
   <section class="header" id="home">
     
     
+      <div class="hero-image">
+        
+          <img
+            class="d-none d-md-block"
+            src="images/background.jpg"
+            alt="background" /><img
+            class="d-md-none"
+            src="images/gus_small.jpg"
+            alt="background" />
+      </div>
+      <div class="container">
+        <div class="row content">
+          <div
+            class="col-lg-8 col-lg-offset-2 col-sm-8 col-sm-offset-2 head-container"
+          >
+            <div class="head-holder">
+              <h1 class="introduction">I&rsquo;m Burton Guster</h1>
+              <div class="animated-text">
+                <strong class="cd-headline clip">
+                  <span class="cd-words-wrapper">
+                    
+                      
+                        <b class="is-visible">Web Developer</b>
+                    
+                      <b
+                          >Pharmaceutical Salesman</b
+                        >
+                    
+                      <b
+                          >Private Detective</b
+                        >
+                    
+                  </span>
+                </strong>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    
   </section>
   
 
@@ -177,10 +203,128 @@
   <section class="about-me" id="about">
     <div class="container">
       
+        
+          <div class="row about-me-holder">
+            <div
+              class="col-lg-6 col-md-6 col-sm-6 about-me-text d-flex align-self-center"
+            >
+              <div class="text-holder">
+                <h1>THIS IS ME</h1>
+                <p>Hi, thank you for taking a look around my site. If you have any questions feel free to reach out on <a href="#contact">LinkedIn, Github, or by email</a>!</p>
+                
+                  
+                    <a
+                      href=""
+                      target="_blank"
+                      class="button download-cv"
+                    >
+                      DOWNLOAD MY RESUME <i class="fa fa-download"></i
+                    ></a>
+                  
+                
+              </div>
+            </div>
+            
+              <div class="col-lg-6 col-sm-6 col-9 about-me-images">
+                <img src="images/profile.jpg" alt="about-me" />
+              </div>
+            
+          </div>
+        
+      
 
       <div class="row experience-skill">
         
+          
+            <div class="col-lg-6 col-sm-6 col-11 experience">
+              <h3>EXPERIENCE</h3>
+              <ul class="experience-chart">
+                
+                  <li>
+                    <div class="single-experience">
+                      <h4>Web Developer</h4>
+                      
+                        <span>Freelance |</span>
+                      
+                      
+                        <span>2020-Current</span>
+                      
+                       <p>I make websites.</p> 
+                    </div>
+                  </li>
+                
+                  <li>
+                    <div class="single-experience">
+                      <h4>Private Detective</h4>
+                      
+                        <span>Psych |</span>
+                      
+                      
+                        <span>2019-2020</span>
+                      
+                       <p>Okay. This is hard to explain but I’m going to give it a shot. You and I are opening our own private detective agency.</p> 
+                    </div>
+                  </li>
+                
+                  <li>
+                    <div class="single-experience">
+                      <h4>Pharmaceutical Salesman</h4>
+                      
+                        <span>South Coast Pharmaceuticals |</span>
+                      
+                      
+                        <span>2012-2018</span>
+                      
+                       <p>We are not bounty hunters, Shawn. I am a pharmaceutical salesman. And Lassiter made it very clear! He said in no uncertain terms. These are certain terms, Shawn! Certain terms!</p> 
+                    </div>
+                  </li>
+                
+              </ul>
+            </div>
+          
+        
 
+        
+          
+            <div class="col-lg-6 col-sm-6 col-11 skill">
+              <h3>SOME SKILLS</h3>
+              <div class="skill-progress-bar">
+                
+                  <div class="clearfix">
+                    <span class="skillbar-title">React</span>
+                    
+                    <div class="skillbar" data-percent="85%">
+                      <div class="skillbar-bar"></div>
+                    </div>
+                  </div>
+                
+                  <div class="clearfix">
+                    <span class="skillbar-title">Detecting</span>
+                    
+                    <div class="skillbar" data-percent="93%">
+                      <div class="skillbar-bar"></div>
+                    </div>
+                  </div>
+                
+                  <div class="clearfix">
+                    <span class="skillbar-title">Selling</span>
+                    
+                    <div class="skillbar" data-percent="25%">
+                      <div class="skillbar-bar"></div>
+                    </div>
+                  </div>
+                
+                  <div class="clearfix">
+                    <span class="skillbar-title">Yelling</span>
+                    
+                    <div class="skillbar" data-percent="100%">
+                      <div class="skillbar-bar"></div>
+                    </div>
+                  </div>
+                
+              </div>
+            </div>
+          
         
       </div>
     </div>
@@ -188,8 +332,121 @@
   
 
   
+    
+      <div class="fun-facts container pt-5">
+        
+          <div class="fun-fact-holder">
+            <img
+              class="img-fluid"
+              src="images/icons/coffee.png"
+              alt="CUPS PER DAY"
+            />
+            <p class="fact-counter count" data-count="2">0</p>
+            <p>CUPS PER DAY</p>
+          </div>
+        
+          <div class="fun-fact-holder">
+            <img
+              class="img-fluid"
+              src="images/icons/web-development.png"
+              alt="SITES BUILT"
+            />
+            <p class="fact-counter count" data-count="25">0</p>
+            <p>SITES BUILT</p>
+          </div>
+        
+          <div class="fun-fact-holder">
+            <img
+              class="img-fluid"
+              src="images/icons/happy.png"
+              alt="USELESS ROW OF ICONS"
+            />
+            <p class="fact-counter count" data-count="1">0</p>
+            <p>USELESS ROW OF ICONS</p>
+          </div>
+        
+      </div>
+    
+  
 
   
+  
+    
+      <section class="portfolio" id="portfolio">
+        <div class="container-fluid text-center">
+          <div class="row portfolio-holder text-left">
+            <div class="col-12 text-center">
+              <h1>
+                MY WORK
+              </h1>
+            </div>
+            <ul id="og-grid" class="og-grid">
+              
+                
+                
+                
+                <li>
+                  <p id="description-hugo" class="hidden">
+                    Commodo non mollit commodo esse. Quis ad Lorem eiusmod ad velit Lorem sint elit. Anim magna duis et duis pariatur eiusmod laboris esse. Sit duis labore sit esse enim laborum nisi sunt magna sint labore tempor. Sit sit sint eu laboris officia et sunt consequat sit excepteur nostrud eu. Fugiat aliqua id et pariatur quis commodo aute aliqua et magna officia eu cillum mollit. Sint culpa excepteur culpa culpa sint est eu dolore culpa duis adipisicing proident.
+                  </p>
+                  <a
+                    href="https://gohugo.io"
+                    data-largesrc="/images/portfolio/hugo_huf751e52a98abc43cadcc772acb69f9f5_81161_780x500_fill_q75_bgffffff_box_smart1_2.jpg"
+                    data-title="Hugo"
+                    data-buttontext="SEE SITE"
+                  >
+                    <img
+                      src="/images/portfolio/hugo_huf751e52a98abc43cadcc772acb69f9f5_81161_395x250_fill_q75_bgffffff_box_smart1_2.jpg"
+                      alt="Hugo image"
+                    />
+                  </a>
+                </li>
+              
+                
+                
+                
+                <li>
+                  <p id="description-hugo-themes" class="hidden">
+                    Commodo non mollit commodo esse. Quis ad Lorem eiusmod ad velit Lorem sint elit. Anim magna duis et duis pariatur eiusmod laboris esse. Sit duis labore sit esse enim laborum nisi sunt magna sint labore tempor. Sit sit sint eu laboris officia et sunt consequat sit excepteur nostrud eu. Fugiat aliqua id et pariatur quis commodo aute aliqua et magna officia eu cillum mollit. Sint culpa excepteur culpa culpa sint est eu dolore culpa duis adipisicing proident.
+                  </p>
+                  <a
+                    href="https://gohugo.io"
+                    data-largesrc="/images/portfolio/hugothemes_huf3bb2470b5aa31b2353f2910854c4e8c_321843_780x500_fill_q75_bgffffff_box_smart1_2.jpg"
+                    data-title="Hugo Themes"
+                    data-buttontext="SEE SITE"
+                  >
+                    <img
+                      src="/images/portfolio/hugothemes_huf3bb2470b5aa31b2353f2910854c4e8c_321843_395x250_fill_q75_bgffffff_box_smart1_2.jpg"
+                      alt="Hugo Themes image"
+                    />
+                  </a>
+                </li>
+              
+                
+                
+                
+                <li>
+                  <p id="description-just-a-design" class="hidden">
+                    Commodo non mollit commodo esse. Quis ad Lorem eiusmod ad velit Lorem sint elit. Anim magna duis et duis pariatur eiusmod laboris esse. Sit duis labore sit esse enim laborum nisi sunt magna sint labore tempor. Sit sit sint eu laboris officia et sunt consequat sit excepteur nostrud eu. Fugiat aliqua id et pariatur quis commodo aute aliqua et magna officia eu cillum mollit. Sint culpa excepteur culpa culpa sint est eu dolore culpa duis adipisicing proident.
+                  </p>
+                  <a
+                    href=""
+                    data-largesrc="/images/portfolio/design_hu5fa725ac233dae90ee8aba7fdae11879_1058947_780x500_fill_q75_bgffffff_box_smart1_2.jpg"
+                    data-title="Just A Design"
+                    data-buttontext="SEE SITE"
+                  >
+                    <img
+                      src="/images/portfolio/design_hu5fa725ac233dae90ee8aba7fdae11879_1058947_395x250_fill_q75_bgffffff_box_smart1_2.jpg"
+                      alt="Just A Design image"
+                    />
+                  </a>
+                </li>
+              
+            </ul>
+          </div>
+        </div>
+      </section>
+    
   
   
 
@@ -232,15 +489,15 @@
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
 
-  <script src="https://example.com/plugins/text-animation/text-animation.js"></script>
+  <script src="plugins/text-animation/text-animation.js"></script>
 
-  <script src="https://example.com/plugins/hugrid/hugrid.min.js"></script>
+  <script src="plugins/hugrid/hugrid.min.js"></script>
 
 
 <!-- Main Scripts -->
 
-<script src="https://example.com/js/script.min.js"></script>
+<script src="/js/script.min.js"></script>
 
-<script src="https://example.com/js/hugrid.custom.min.js"></script>
+<script src="/js/hugrid.custom.min.js"></script>
 </body>
 </html>
