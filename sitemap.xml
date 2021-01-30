@@ -3,15 +3,15 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/categories/</loc>
+    <loc>https://tyler-lawson/port-hugo/categories/</loc>
   </url>
   
   <url>
-    <loc>/</loc>
+    <loc>https://tyler-lawson/port-hugo/</loc>
   </url>
   
   <url>
-    <loc>/tags/</loc>
+    <loc>https://tyler-lawson/port-hugo/tags/</loc>
   </url>
   
 </urlset>
