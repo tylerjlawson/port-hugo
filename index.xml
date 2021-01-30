@@ -2,8 +2,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Port Hugo</title>
-    <link>https://tyler-lawson/port-hugo/</link>
+    <link>https://tyler-lawson.com/port-hugo/</link>
     <description>Recent content on Port Hugo</description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="https://tyler-lawson/port-hugo/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://tyler-lawson.com/port-hugo/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
